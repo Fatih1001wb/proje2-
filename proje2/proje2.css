@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 7px;
+}
+
+body {
+
+    font-family: "Roboto Slab", serif;
+    /* burası yazı stili*/
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-align: center;
+    background-color: #9a0000;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    padding: 1.6rem 0;
+
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+header {
+    height: 46rem;
+}
+
+header .bg-image {
+    position: absolute;
+    background-image: url(dağ.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 46rem;
+    width: 100%;
+    opacity: 0.8;
+    z-index: -1;
+}
+
+header h1 {
+    padding: 12rem;
+    padding-bottom: 0;
+}
+.clearfix:after{
+
+    content: "";
+    display: block;
+    clear: both;
+}
+.btn {
+    display: inline-block;
+    background: #4d4d4d;
+    color: rgb(0, 0, 0);
+    border: 1px solid #666;
+    padding: 1.6rem 3.2rem;
+    margin: .5rem 0;
+    transition: all 0.4s;
+}
+
+.btn:hover {
+    background-color: white;
+    color: #4d4d4d;
+}
+
+#section-a {
+    background-color: rgb(58, 58, 58);
+    color: #929292;
+    padding: 3.2rem 0;
+}
+
+#section-b {
+    padding: 2rem;
+}
+
+#section-b ul {
+    list-style: none;
+}
+
+#section-b li {
+    background-color: rgb(58, 58, 58);
+    color: #7a7a7a;
+    margin-bottom: 1.5rem;
+}
+
+.col-concent {
+    padding: 1.5rem;
+}
+
+#section-c {
+    background-color: #7a7a7a;
+    color: black;
+    padding: 2rem;
+}
+#section-d{
+    padding: 2rem;
+}
+
+#section-d .box:first-child{
+    background-color: darkslategrey;
+    
+}
+
+.box{
+    background-color: darkslategray;
+}
+
+footer{
+    padding: 4rem;
+    background: rgb(0, 0, 0);
+    color: #7a7a7a;
+}
+footer a{
+    color: darkslategray;
+}
+@media screen and (min-width:800px) {
+
+html{
+    font-size: 9px;
+}
+}
+
+@media screen and (min-width:1200px) {
+    html{font-size: 12px;
+    }
+#section-b li{
+    width: 28%;
+    margin: 1%;
+    display: inline-block;
+}
+.box{
+    width: 50%;
+float: left;
+}
+
+    }
